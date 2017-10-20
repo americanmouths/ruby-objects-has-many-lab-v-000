@@ -10,7 +10,7 @@ class Artist
     song = Song.new(song)
     @songs << song
     song.artist = self
-    song
+    song.artist
   end
 
   def songs
